@@ -8,23 +8,30 @@
 
 </head>
 <body>
-<div class="title_1">La poulaille du terroir</div>
+<main>
+    
+<a href="#principal" class="skip-link">Aller au contenu</a>
+...
+<main id="principal">
+    <article>Contenu unique</article>
+</main>
+<header class="title_1">La poulaille du terroir</header>
 <div>
-    <div class="nav">
-        <img src="img/chicken-159496_120.png">
+    <nav class="nav">
+        <img src="img/chicken-159496_120.png" alt=" ">
         <div class="nav_link" onclick="window.location='#actualites'">Actualités</div>
         <div class="nav_link" onclick="window.location='#articles'">Derniers articles</div>
         <div class="nav_link" onclick="window.location='#nous_connaitre'">Nous connaitre</div>
-    </div>
+    </nav>
 </div>
 <form class="center">
-    <div class="section">
-        <div class="label" id="recherche"><span>Recherche </span> <input class="search_input"></div>
-    </div>
+    <section class="section">
+        <search class="label" id="recherche"><span>Recherche </span> <input class="search_input"></search>
+    </section>
 </form>
-<div class="section">
+<section class="section">
     <div id="actualites" class="title_2">Actualités</div>
-    <img src="img/village-9720411_320.png">
+    <img src="img/village-9720411_320.png" alt="Dessin d'une maison avec une poule">
     <div class="small">Image par <span class="link"
                                        onclick="window.location.href='https://pixabay.com/fr/users/soponyono-16867228/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9720411'">soponyono</span>
         de
@@ -34,42 +41,42 @@
     <div class="paragraphe">Oyez oyez ! Tout va bien dans les chaumières ! La poule est en liberté ! Je répète, la poule
         est en liberté !
     </div>
-</div>
-<div class="section">
-    <div id="articles" class="title_2">Derniers articles</div>
+</section>
+<section class="section">
+    <article id="articles" class="title_2">Derniers articles</article>
     <div class="grid">
-        <div class="card">
-            <div class="card_header">Attaque de renard</div>
+        <article class="card">
+            <header class="card_header">Attaque de renard</header>
             <div class="card_date">15 octobre 2025</div>
             <div class="card_content">Nous déplorons la disparition de 3 de nos plus belles poules ce
                 mercredi. Le renard a réussir à se glisser dans le poulailler.
             </div>
             <div class="link" onclick="window.location.href='#'">Lire la suite de l'article</div>
-        </div>
-        <div class="card">
-            <div class="card_header">Le poulailler</div>
+        </article>
+        <article class="card">
+            <header class="card_header">Le poulailler</header>
             <div class="card_date">10 octobre 2025</div>
             <div class="card_content">Aujourd'hui nous avons installé un poulailler tout neuf ! Une amélioration
                 considérable du confort pour nos petites poupoules.
             </div>
             <div class="link" onclick="window.location.href='#'">Lire la suite de l'article</div>
-        </div>
-        <div class="card">
-            <div class="card_header">Un nouveau départ</div>
+        </article>
+        <article class="card">
+            <header class="card_header">Un nouveau départ</header>
             <div class="card_date">02 octobre 2025</div>
             <div class="card_content">Après une longue carrière dans le monde du développement Web, nous décidons enfin
                 de déménager à la campagne. Nous avons acheté 3 poules : Rouquine, Touffue et Jean-Michel. Nous espérons
                 qu'elles nous donneront beaucoup d'œufs !
             </div>
             <div class="link" onclick="window.location.href='#'">Lire la suite de l'article</div>
-        </div>
+        </article>
     </div>
-</div>
-<div class="section">
+</section>
+<footer class="section">
     <div id="nous_connaitre" class="title_2">Nous Connaître</div>
     <div class="nous_connaitre">
-        <div>
-            <img src="img/ghost-8250317_320.png">
+        <article>
+            <img src="img/ghost-8250317_320.png" alt="Fantome">
             <div class="paragraphe">Casper</div>
             <div class="small">Image par <span class="link"
                                                onclick="window.location.href='https://pixabay.com/fr/users/madebytin-39325616/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8250317'">madebytin</span>
@@ -77,16 +84,17 @@
                 <span class="link"
                       onclick="window.location.href='https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8250317'">Pixabay</span>
             </div>
-        </div>
-        <div>
-            <img src="img/zombie-521243_320.png">
+        </article>
+</main>
+        <article>
+            <img src="img/zombie-521243_320.png" alt="Zombie">
             <div class="paragraphe">Zombie</div>
             <div class="small">Image par <span class="link"
                                                onclick="window.location.href='https://pixabay.com/fr/users/glamazon-481548/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=521243'">Amanda
                 Elizabeth</span> de <span class="link"
                                           onclick="window.location.href='https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=521243'">Pixabay</span>
             </div>
-        </div>
+        </article>
 
     </div>
 <div>
@@ -95,6 +103,6 @@
     </small>
 
 </div>
-</div>
+</footer>
 </body>
 </html>
