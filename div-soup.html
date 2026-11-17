@@ -8,75 +8,84 @@
 
 </head>
 <body>
-<main>
-    
-<a href="#principal" class="skip-link">Aller au contenu</a>
-...
-<main id="principal">
-    <article>Contenu unique</article>
-</main>
-<header class="title_1">La poulaille du terroir</header>
-<div>
+<a class="skip-link" href="#principal">Aller au contenu principal</a>
+<header>
+
     <nav class="nav">
-        <img src="img/chicken-159496_120.png" alt=" ">
-        <div class="nav_link" onclick="window.location='#actualites'">Actualités</div>
-        <div class="nav_link" onclick="window.location='#articles'">Derniers articles</div>
-        <div class="nav_link" onclick="window.location='#nous_connaitre'">Nous connaitre</div>
+        <img src="img/chicken-159496_120.png" alt="Poule avec ces pousins">
+        <ul class="nav_links">
+            <li class="nav_link" onclick="window.location='#actualites'">Actualités</li>
+            <li class="nav_link" onclick="window.location='#articles'">Derniers articles</li>
+            <li class="nav_link" onclick="window.location='#nous_connaitre'">Nous connaitre</li>
+        </ul>
     </nav>
-</div>
-<form class="center">
-    <section class="section">
-        <search class="label" id="recherche"><span>Recherche </span> <input class="search_input"></search>
-    </section>
-</form>
-<section class="section">
-    <div id="actualites" class="title_2">Actualités</div>
-    <img src="img/village-9720411_320.png" alt="Dessin d'une maison avec une poule">
-    <div class="small">Image par <span class="link"
-                                       onclick="window.location.href='https://pixabay.com/fr/users/soponyono-16867228/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9720411'">soponyono</span>
-        de
-        <span  class="link" onclick="window.location.href='https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9720411'">Pixabay</span>
-    </div>
-    <div class="paragraphe">Le 20 octobre 2025</div>
-    <div class="paragraphe">Oyez oyez ! Tout va bien dans les chaumières ! La poule est en liberté ! Je répète, la poule
-        est en liberté !
-    </div>
-</section>
-<section class="section">
-    <article id="articles" class="title_2">Derniers articles</article>
-    <div class="grid">
-        <article class="card">
-            <header class="card_header">Attaque de renard</header>
-            <div class="card_date">15 octobre 2025</div>
-            <div class="card_content">Nous déplorons la disparition de 3 de nos plus belles poules ce
-                mercredi. Le renard a réussir à se glisser dans le poulailler.
+
+    <search>
+        <form class="center">
+            <div class="section">
+                <div class="label" id="recherche"><span>Recherche </span> <input class="search_input"></div>
             </div>
-            <div class="link" onclick="window.location.href='#'">Lire la suite de l'article</div>
-        </article>
-        <article class="card">
-            <header class="card_header">Le poulailler</header>
-            <div class="card_date">10 octobre 2025</div>
-            <div class="card_content">Aujourd'hui nous avons installé un poulailler tout neuf ! Une amélioration
-                considérable du confort pour nos petites poupoules.
-            </div>
-            <div class="link" onclick="window.location.href='#'">Lire la suite de l'article</div>
-        </article>
-        <article class="card">
-            <header class="card_header">Un nouveau départ</header>
-            <div class="card_date">02 octobre 2025</div>
-            <div class="card_content">Après une longue carrière dans le monde du développement Web, nous décidons enfin
-                de déménager à la campagne. Nous avons acheté 3 poules : Rouquine, Touffue et Jean-Michel. Nous espérons
-                qu'elles nous donneront beaucoup d'œufs !
-            </div>
-            <div class="link" onclick="window.location.href='#'">Lire la suite de l'article</div>
-        </article>
-    </div>
-</section>
+        </form>
+    </search>
+
+</header>
+<main id="principal">
+    
+    <h1 class="title_1">La poulaille du terroir</h1>
+
+    <article class="section">
+        <h2 id="actualites" class="title_2">Actualités</h2>
+        <img src="img/village-9720411_320.png" alt="Village">
+        <div class="small">Image par <span class="link"
+                                        onclick="window.location.href='https://pixabay.com/fr/users/soponyono-16867228/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9720411'">soponyono</span>
+            de
+            <span  class="link" onclick="window.location.href='https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9720411'">Pixabay</span>
+        </div>
+        <p class="paragraphe">Le 20 octobre 2025</p>
+        <p class="paragraphe">Oyez oyez ! Tout va bien dans les chaumières ! La poule est en liberté ! Je répète, la poule
+            est en liberté !
+        </p>
+    </article>
+
+    <article class="section">
+        <h2 id="articles" class="title_2">Derniers articles</h2>
+        <div class="grid">
+            <article class="card">
+                <h3 class="card_header">Attaque de renard</h3>
+                <time class="card_date">15 octobre 2025</time>
+                <div class="card_content">Nous déplorons la disparition de 3 de nos plus belles poules ce
+                    mercredi. Le renard a réussir à se glisser dans le poulailler.
+                </div>
+                <div class="link" onclick="window.location.href='#'">Lire la suite de l'article</div>
+            </article>
+            <article class="card">
+                <h3 class="card_header">Le poulailler</h3>
+                <time class="card_date">10 octobre 2025</time>
+                <div class="card_content">Aujourd'hui nous avons installé un poulailler tout neuf ! Une amélioration
+                    considérable du confort pour nos petites poupoules.
+                </div>
+                <div class="link" onclick="window.location.href='#'">Lire la suite de l'article</div>
+            </article>
+            <article class="card">
+                <h3 class="card_header">Un nouveau départ</h3>
+                <time class="card_date">02 octobre 2025</time>
+                <div class="card_content">Après une longue carrière dans le monde du développement Web, nous décidons enfin
+                    de déménager à la campagne. Nous avons acheté 3 poules : Rouquine, Touffue et Jean-Michel. Nous espérons
+                    qu'elles nous donneront beaucoup d'œufs !
+                </div>
+                <div class="link" onclick="window.location.href='#'">Lire la suite de l'article</div>
+            </article>
+        </div>
+    </article>
+    
+</main>
 <footer class="section">
-    <div id="nous_connaitre" class="title_2">Nous Connaître</div>
+    <article>
+
+    <h2 id="nous_connaitre" class="title_2">Nous Connaître</h2>
     <div class="nous_connaitre">
         <article>
-            <img src="img/ghost-8250317_320.png" alt="Fantome">
+            <img src="img/ghost-8250317_320.png" alt="Fantôme">
             <div class="paragraphe">Casper</div>
             <div class="small">Image par <span class="link"
                                                onclick="window.location.href='https://pixabay.com/fr/users/madebytin-39325616/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8250317'">madebytin</span>
@@ -85,9 +94,8 @@
                       onclick="window.location.href='https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8250317'">Pixabay</span>
             </div>
         </article>
-</main>
         <article>
-            <img src="img/zombie-521243_320.png" alt="Zombie">
+            <img src="img/zombie-521243_320.png">
             <div class="paragraphe">Zombie</div>
             <div class="small">Image par <span class="link"
                                                onclick="window.location.href='https://pixabay.com/fr/users/glamazon-481548/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=521243'">Amanda
@@ -96,13 +104,12 @@
             </div>
         </article>
 
-    </div>
-<div>
-    <small  >
-        Copyright La poularde -     2026
-    </small>
+        </article>
+        <small>
+            Copyright La poularde -     2026
+        </small>
 
-</div>
+    </article>
 </footer>
 </body>
 </html>
